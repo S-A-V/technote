@@ -1,0 +1,168 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": false
+    },
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.tabSize": 4
+  },
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.autoIndent": "full",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.wrappingIndent": "deepIndent",
+  "eslint.format.enable": false,
+  "eslint.packageManager": "yarn",
+  "eslint.probe": [
+    "javascript",
+    "typescript",
+    "vue"
+  ],
+  "eslint.run": "onType",
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue"
+  ],
+  "files.associations": {
+    "*.wxss": "css"
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitNotFoundWarning": true,
+    "suppressLineUncommittedWarning": true
+  },
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "less.compile": {
+    "outExt": ".wxss"
+  },
+  "markdownlint.config": {
+    "line-length": false,
+    "no-bare-urls": false,
+    "no-duplicate-header": false,
+    "no-emphasis-as-header": false,
+    "no-hard-tabs": false,
+    "no-inline-html": false,
+    "no-trailing-punctuation": false,
+    "ul-indent": {
+      "indent": 4
+    }
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "minapp-vscode.cssExtname": "less",
+  "minapp-vscode.prettier": {
+    "htmlWhitespaceSensitivity": "ignore",
+    "parser": "html",
+    "printWidth": 120
+  },
+  "minapp-vscode.wxmlFormatter": "prettier",
+  "npm.packageManager": "yarn",
+  "npm.registry": "https://registry.npm.taobao.org/",
+  "pasteImage.path": "${currentFileDir}/images",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 0,
+  "prettier.configPath": "C:\\workspace\\portal\\.prettierrc",
+  "prettier.prettierPath": "C:\\workspace\\portal\\cli\\node_modules\\prettier",
+  "stylelint.configOverrides": {
+    "extends": [
+      "@maiscrm/stylelint-config-standard"
+    ]
+  },
+  "stylelint.configBasedir": "C:\\workspace\\portal\\cli",
+  "stylelint.packageManager": "yarn",
+  "stylelint.stylelintPath": "C:\\workspace\\portal\\cli\\node_modules\\stylelint",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "sass",
+    "scss",
+    "styled-css",
+    "sugarss",
+    "vue",
+    "vue-postcss"
+  ],
+  "vetur.format.enable": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "vetur.validation.template": false,
+  "yaml.schemas": {
+    "http://json.schemastore.org/swagger-2.0": "*.swagger.yml"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu-20.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": [
+        "-d",
+        "Ubuntu-20.04"
+      ]
+    }
+  },
+  "redhat.telemetry.enabled": false,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "transform.targetUnit": "rpx"
+}
