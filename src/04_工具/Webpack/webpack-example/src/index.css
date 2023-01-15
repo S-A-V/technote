@@ -1,0 +1,10 @@
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 120px;
+  margin: auto;
+}
